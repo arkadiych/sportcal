@@ -1,0 +1,8 @@
+mm_sportcalendar_locale:
+    path:     /{_locale}/
+    defaults: { _controller: MMSportcalendarBundle:Dashboard:index }
+    requirements:
+            _locale: en|ru
+mm_sportcalendar:
+    path:     /
+    defaults: { _controller: MMSportcalendarBundle:Dashboard:index, _locale: en }

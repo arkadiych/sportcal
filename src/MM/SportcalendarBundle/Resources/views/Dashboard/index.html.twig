@@ -1,0 +1,29 @@
+<h1>{{ 'dashboard.greeting'|trans }}</h1>
+
+<h3>{{ 'dashboard.title'|trans }}</h3>
+<table border="1">
+    <thead>
+        <tr>
+            {% for val in header %}
+                <th>{{ val }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            {% for val in data %}
+                <td>
+                    <ul>
+                        {% for exercise in val %}
+                            <li>
+                                {{ exercise.description }} {{ exercise.weight }}Kg X {{ exercise.count }}
+                            </li>
+                       {% endfor %}
+                    </ul>
+                </td>
+            {% endfor %}
+        </tr>
+    </tbody>
+</table>
+
+

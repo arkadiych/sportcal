@@ -1,0 +1,7 @@
+parameters:
+    sportcalendar.class: MM\SportcalendarBundle\Service\Calendar
+
+services:
+    sportcalendar:
+        class: %sportcalendar.class%
+        arguments: [@doctrine]

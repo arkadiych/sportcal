@@ -1,0 +1,7 @@
+# messages.en.yml
+dashboard.calendar.today: today
+dashboard.calendar.week_ago: week ago
+dashboard.calendar.two_weeks_ago: two weeks ago
+
+dashboard.title: Check what you did in last 3 trainings
+dashboard.greeting: Hi men

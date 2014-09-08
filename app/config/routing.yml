@@ -1,0 +1,4 @@
+mm_sportcalendar:
+    resource: "@MMSportcalendarBundle/Resources/config/routing.yml"
+    prefix:   /
+

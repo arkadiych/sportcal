@@ -1,0 +1,7 @@
+MM\SportcalendarBundle\Entity\Exercise:
+    ex{1..300}:
+        description: <getDescription()>
+        weight: <numberBetween(20, 200)>
+        count: <numberBetween(5, 15)>
+        date: <dateTimeBetween('-30 day', 'now')>
+        time: <dateTimeBetween('-30 day', 'now')>
